@@ -19,10 +19,10 @@
 
             <nav>
                 <ul class="menu">
-                    <li class="menu__item"><a href="">Inicio</a></li>
-                    <li class="menu__item"><a href="">Datos</a></li>
-                    <li class="menu__item"><a href="">Desempeño</a></li>
-                    <li class="menu__item"><a href="">Cerrar Sesión</a></li>
+                    <li class="menu__item"><a href="home.html">Inicio</a></li>
+                    <li class="menu__item"><a href="empleado.html">Datos</a></li>
+                    <li class="menu__item"><a href="desempeno.html">Desempeño</a></li>
+                    <li class="menu__item"><a href="#">Cerrar Sesión</a></li>
                 </ul>            
             </nav>
         </div>
@@ -39,32 +39,22 @@
                 <div class="container_datos">
                     <h2 class="datos_titulo">Datos Personales</h2>                                   
                     <form class="form_datos">
-                        <label for="GET-name">Nombres:</label>
-                            <input id="GET-name" type="text" name="name"> 
-                        <label for="GET-name">Apellidos:</label>
-                            <input id="GET-name" type="text" name="name">
-                        <label for="GET-name">Documento:</label>
-                            <input id="GET-name" type="text" name="name">
-                        <label for="GET-name">Fecha de nacimiento:</label>
-                            <input id="GET-name" type="text" name="name">
+                        <label class="datos_label" for="user_name">Nombres: <input id="user_name" type="text"></label>
+                        <label class="datos_label" for="user_surname">Apellidos: <input id="user_surname" type="text"></label>
+                        <label class="datos_label" for="user_id">Documento: <input id="user_id" type="text"></label>
+                        <label class="datos_label" for="user_date">Fecha de nacimiento: <input id="user_date" type="date"></label>
                     </form>      
                 </div>
                 
                 <div class="container_laborales">
                     <h2 class="laborales_titulo">Datos Laborales</h2>
                     <form class="form_laborales">                   
-                    <label for="GET-name">Cargo:</label>
-                        <input id="GET-name" type="text" name="name">
-                    <label for="GET-name">Dependencia:</label>
-                        <input id="GET-name" type="text" name="name">
-                    <label for="GET-name">Fecha Incial:</label>
-                        <input id="GET-name" type="text" name="name">
-                    <label for="GET-name">Fecha Final:</label>
-                        <input id="GET-name" type="text" name="name">
-                    <label for="GET-name">Tipo Contrato:</label>
-                        <input id="GET-name" type="text" name="name">
-                    <label for="GET-name">Salario:</label>
-                        <input id="GET-name" type="text" name="name">
+                        <label class="laboral_label" for="contract_cargo">Cargo: <input id="contract_cargo" type="text"></label>
+                        <label class="laboral_label" for="contract_dependencia">Dependencia: <input id="contract_dependencia" type="text"></label>
+                        <label class="laboral_label" for="contract_dateI">Fecha Incial: <input id="contract_dateI" type="date"></label>
+                        <label class="laboral_label" for="contract_dateF">Fecha Final: <input id="contract_dateF" type="date"></label>
+                        <label class="laboral_label" for="contract_type">Tipo Contrato: <input id="contract_type" type="text"></label>
+                        <label class="laboral_label" for="contract_salario">Salario: <input id="contract_salario" type="text"></label>
                     </form>
                 </div>
                     
