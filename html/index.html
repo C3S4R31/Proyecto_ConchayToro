@@ -9,9 +9,20 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
         <title>Concha y Toro</title>
         <link rel="stylesheet" href="../css/reset.css">
-        <link rel="stylesheet" href="../css/style_home.css">
+        <link rel="stylesheet" href="../css/style_index.css">
     </head>
     <body>
-        
+        <div class="container_logo">
+            <img src="../imagenes/logo.svg" alt="">
+        </div>
+        <div class="container_form">
+            <form class="container_data">
+                    <img class="user_img" src="../imagenes/user.png" alt="">
+                    <h1>INICIO DE SESION</h1>
+                    <input type="text" id="user_id" placeholder="usuario">
+                    <input type="password" id="user_password" placeholder="contraseña">
+                    <button type="button" id="button" onclick="Ingresar()"  >Ingresar</button>
+            </form>
+        </div>
     </body>
 </html>
