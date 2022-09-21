@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
         <title>Concha y Toro</title>
         <link rel="stylesheet" href="../css/reset.css">
-        <link rel="stylesheet" href="../css/style_home.css">
+        <link rel="stylesheet" href="../css/style_empleado.css">
     </head>
     <body>
         <div class="sidebar">
@@ -36,10 +36,46 @@
             </header>
         
             <main>
-                <div class="container">
-                    <img src="../imagenes/logo.svg" alt="">
-                    <p>Bienvenido al Sistema de Gestion y Evaluacion de Empleados Concha y Toro<br><br><br>En este Sistema de Informacion el empleado puede ver su evaluacion de desempeño, ademas de actualizar su informacion Personal</p>
-                </div>    
+                <div class="container_datos">
+                    <h2 class="datos_titulo">Datos Personales</h2>                                   
+                    <form class="form_datos">
+                        <label for="GET-name">Nombres:</label>
+                            <input id="GET-name" type="text" name="name"> 
+                        <label for="GET-name">Apellidos:</label>
+                            <input id="GET-name" type="text" name="name">
+                        <label for="GET-name">Documento:</label>
+                            <input id="GET-name" type="text" name="name">
+                        <label for="GET-name">Fecha de nacimiento:</label>
+                            <input id="GET-name" type="text" name="name">
+                    </form>      
+                </div>
+                
+                <div class="container_laborales">
+                    <h2 class="laborales_titulo">Datos Laborales</h2>
+                    <form class="form_laborales">                   
+                    <label for="GET-name">Cargo:</label>
+                        <input id="GET-name" type="text" name="name">
+                    <label for="GET-name">Dependencia:</label>
+                        <input id="GET-name" type="text" name="name">
+                    <label for="GET-name">Fecha Incial:</label>
+                        <input id="GET-name" type="text" name="name">
+                    <label for="GET-name">Fecha Final:</label>
+                        <input id="GET-name" type="text" name="name">
+                    <label for="GET-name">Tipo Contrato:</label>
+                        <input id="GET-name" type="text" name="name">
+                    <label for="GET-name">Salario:</label>
+                        <input id="GET-name" type="text" name="name">
+                    </form>
+                </div>
+                    
+                
+                <div class="container_botones">
+                    <button class="boton_item" type="submit">Consultar</button>
+                    <button class="boton_item" type="submit">Actualizar</button>
+                    <button class="boton_item" type="submit">Modificar</button>
+                    <button class="boton_item" type="submit">Eliminar</button>
+                </div>
+                    
             </main>
         
             <footer>
@@ -49,3 +85,14 @@
         <!-- JavaScript     -->
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
